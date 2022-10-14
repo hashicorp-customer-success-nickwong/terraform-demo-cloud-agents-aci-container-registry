@@ -123,7 +123,9 @@ resource "azurerm_key_vault" "demo" {
       "Create",
       "Get",
       "UnwrapKey",
-      "WrapKey"
+      "WrapKey",
+      "Purge",
+      "Delete"
     ]
   }
 
